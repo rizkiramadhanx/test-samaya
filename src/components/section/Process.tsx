@@ -1,5 +1,5 @@
 import FootDog from '@/assets/footDog.svg';
-import ProcessImg from '@/assets/Process.png';
+import ProcessImg from '@/assets/process.png';
 import { Box, Flex, SimpleGrid, Image, Button, Text } from '@chakra-ui/react';
 import ProcessCard from '../Card/ProcessCard';
 import Searching from '@/assets/SearchingProcess.svg';
