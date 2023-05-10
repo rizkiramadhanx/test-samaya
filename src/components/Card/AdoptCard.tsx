@@ -15,7 +15,13 @@ const AdoptCard = ({ description, image, title }: AdoptCardProps) => {
       <Text mt="34px" fontWeight="bold" fontSize="px" textAlign="center">
         {title}
       </Text>
-      <Text mt="10px" fontWeight="light" fontSize="16px" textAlign="center">
+      <Text
+        fontFamily="Poppins"
+        mt="10px"
+        fontWeight="light"
+        fontSize="16px"
+        textAlign="center"
+      >
         {description}
       </Text>
     </Box>

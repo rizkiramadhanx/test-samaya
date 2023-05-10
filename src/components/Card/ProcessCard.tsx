@@ -16,7 +16,7 @@ const ProcessCard = ({ description, image, title }: ProcessCardProps) => {
           <Text fontWeight="bold" fontSize="21px">
             {title}
           </Text>
-          <Text fontSize="12px" mt={2}>
+          <Text fontSize="12px" mt={2} fontFamily="Poppins">
             {description}
           </Text>
         </Flex>

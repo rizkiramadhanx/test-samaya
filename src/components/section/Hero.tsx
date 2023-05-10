@@ -12,8 +12,8 @@ const Hero = () => {
       shadow="sm"
       position="relative"
       minH={{
-        base: 'calc(100vh - 70px)',
-        lg: 'calc(100vh - 95px)',
+        base: '600px',
+        lg: '600px',
         '2xl': '600px',
       }}
     >
@@ -38,7 +38,7 @@ const Hero = () => {
           <Flex
             direction="column"
             justifyContent="center"
-            minH={{ base: 'calc(100vh - 70px)' }}
+            minH={{ base: '600px' }}
           >
             <Text
               fontWeight="bold"
@@ -57,6 +57,7 @@ const Hero = () => {
               }}
               color="#96817C"
               mt="12px"
+              fontFamily="Poppins"
             >
               Lorem ipsum dolor sit amet consectetur. Porttitor accumsan fusce
               aliquam cras dignissim nulla.

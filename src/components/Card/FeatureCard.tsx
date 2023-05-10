@@ -28,7 +28,7 @@ const FeatureCard = ({ description, image, title }: FeatureCardProps) => {
         <Text fontSize="14px" fontWeight="bold">
           {title}
         </Text>
-        <Text fontSize="10px" mt="11px">
+        <Text fontSize="10px" mt="11px" fontFamily="Poppins">
           {description}
         </Text>
         <Text mt="14px">See More </Text>

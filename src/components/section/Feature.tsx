@@ -30,7 +30,7 @@ const DATA_FEATURE = [
 
 const Feature = () => {
   return (
-    <Box display="flex" justifyContent="center" shadow="sm">
+    <Box display="flex" justifyContent="center">
       <Flex
         color="brand.brown"
         justify="space-between"
