@@ -7,7 +7,7 @@ import Feature from './components/section/Feature';
 import Footer from './components/section/Footer';
 import { Box, Image } from '@chakra-ui/react';
 import Foot from '@/assets/foot2.svg';
-import Foot3 from '@/assets/foot3.svg';
+import Foot3 from '@/assets/foot31.svg';
 import RightCurve from '@/assets/rightCurve.svg';
 import leftCurve from '@/assets/leftCurve.svg';
 
