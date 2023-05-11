@@ -1,4 +1,11 @@
-import { Box, Flex, Text, useDisclosure } from '@chakra-ui/react';
+import {
+  Box,
+  Button,
+  Divider,
+  Flex,
+  Text,
+  useDisclosure,
+} from '@chakra-ui/react';
 import Logo from '@/assets/logo.svg';
 import Search from '@/assets/search.svg';
 import { RxHamburgerMenu } from 'react-icons/rx';
@@ -87,11 +94,10 @@ const Navbar = () => {
           </DrawerHeader>
           <DrawerBody display="flex" flexDirection="column" gap={3}>
             {DATA_NAVBAR.map((data, key) => (
-              <Text
+              <Button
                 key={key}
                 cursor="pointer"
                 as="button"
-                textAlign="center"
                 _hover={{
                   bgColor: 'brand.brown',
                   color: 'white',
@@ -99,8 +105,25 @@ const Navbar = () => {
                 }}
               >
                 {data.name}
-              </Text>
+              </Button>
             ))}
+            <Divider />
+            <Button
+              cursor="pointer"
+              as="button"
+              bgColor="brand.brown"
+              color="white"
+            >
+              Login
+            </Button>
+            <Button
+              cursor="pointer"
+              as="button"
+              bgColor="brand.brown"
+              color="white"
+            >
+              Account
+            </Button>
           </DrawerBody>
         </DrawerContent>
       </Drawer>
